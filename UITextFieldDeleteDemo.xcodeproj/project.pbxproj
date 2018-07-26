@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0993EB2109BDBB00B2726A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0993EA2109BDBB00B2726A /* AppDelegate.m */; };
+		FE0993EE2109BDBB00B2726A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0993ED2109BDBB00B2726A /* ViewController.m */; };
+		FE0993F12109BDBB00B2726A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0993EF2109BDBB00B2726A /* Main.storyboard */; };
+		FE0993F32109BDBD00B2726A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0993F22109BDBD00B2726A /* Assets.xcassets */; };
+		FE0993F62109BDBD00B2726A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0993F42109BDBD00B2726A /* LaunchScreen.storyboard */; };
+		FE0993F92109BDBD00B2726A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0993F82109BDBD00B2726A /* main.m */; };
+		FE0994032109BDBD00B2726A /* UITextFieldDeleteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0994022109BDBD00B2726A /* UITextFieldDeleteDemoTests.m */; };
+		FE09940E2109BDBD00B2726A /* UITextFieldDeleteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE09940D2109BDBD00B2726A /* UITextFieldDeleteDemoUITests.m */; };
+		FE09941D2109BDDF00B2726A /* UITextField+ZL.m in Sources */ = {isa = PBXBuildFile; fileRef = FE09941C2109BDDF00B2726A /* UITextField+ZL.m */; };
+		FE0994202109BE3600B2726A /* UIViewController+ZL.m in Sources */ = {isa = PBXBuildFile; fileRef = FE09941F2109BE3600B2726A /* UIViewController+ZL.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE0993FF2109BDBD00B2726A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0993DE2109BDBB00B2726A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0993E52109BDBB00B2726A;
+			remoteInfo = UITextFieldDeleteDemo;
+		};
+		FE09940A2109BDBD00B2726A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE0993DE2109BDBB00B2726A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE0993E52109BDBB00B2726A;
+			remoteInfo = UITextFieldDeleteDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0993E62109BDBB00B2726A /* UITextFieldDeleteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextFieldDeleteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0993E92109BDBB00B2726A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE0993EA2109BDBB00B2726A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE0993EC2109BDBB00B2726A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE0993ED2109BDBB00B2726A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE0993F02109BDBB00B2726A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE0993F22109BDBD00B2726A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0993F52109BDBD00B2726A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE0993F72109BDBD00B2726A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0993F82109BDBD00B2726A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE0993FE2109BDBD00B2726A /* UITextFieldDeleteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextFieldDeleteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0994022109BDBD00B2726A /* UITextFieldDeleteDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldDeleteDemoTests.m; sourceTree = "<group>"; };
+		FE0994042109BDBD00B2726A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0994092109BDBD00B2726A /* UITextFieldDeleteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextFieldDeleteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE09940D2109BDBD00B2726A /* UITextFieldDeleteDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldDeleteDemoUITests.m; sourceTree = "<group>"; };
+		FE09940F2109BDBD00B2726A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE09941B2109BDDF00B2726A /* UITextField+ZL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+ZL.h"; sourceTree = "<group>"; };
+		FE09941C2109BDDF00B2726A /* UITextField+ZL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ZL.m"; sourceTree = "<group>"; };
+		FE09941E2109BE3600B2726A /* UIViewController+ZL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZL.h"; sourceTree = "<group>"; };
+		FE09941F2109BE3600B2726A /* UIViewController+ZL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZL.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0993E32109BDBB00B2726A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0993FB2109BDBD00B2726A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0994062109BDBD00B2726A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0993DD2109BDBB00B2726A = {
+			isa = PBXGroup;
+			children = (
+				FE0993E82109BDBB00B2726A /* UITextFieldDeleteDemo */,
+				FE0994012109BDBD00B2726A /* UITextFieldDeleteDemoTests */,
+				FE09940C2109BDBD00B2726A /* UITextFieldDeleteDemoUITests */,
+				FE0993E72109BDBB00B2726A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0993E72109BDBB00B2726A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0993E62109BDBB00B2726A /* UITextFieldDeleteDemo.app */,
+				FE0993FE2109BDBD00B2726A /* UITextFieldDeleteDemoTests.xctest */,
+				FE0994092109BDBD00B2726A /* UITextFieldDeleteDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0993E82109BDBB00B2726A /* UITextFieldDeleteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE0993E92109BDBB00B2726A /* AppDelegate.h */,
+				FE0993EA2109BDBB00B2726A /* AppDelegate.m */,
+				FE0993EC2109BDBB00B2726A /* ViewController.h */,
+				FE0993ED2109BDBB00B2726A /* ViewController.m */,
+				FE0993EF2109BDBB00B2726A /* Main.storyboard */,
+				FE0993F22109BDBD00B2726A /* Assets.xcassets */,
+				FE0993F42109BDBD00B2726A /* LaunchScreen.storyboard */,
+				FE0993F72109BDBD00B2726A /* Info.plist */,
+				FE0993F82109BDBD00B2726A /* main.m */,
+				FE09941B2109BDDF00B2726A /* UITextField+ZL.h */,
+				FE09941C2109BDDF00B2726A /* UITextField+ZL.m */,
+				FE09941E2109BE3600B2726A /* UIViewController+ZL.h */,
+				FE09941F2109BE3600B2726A /* UIViewController+ZL.m */,
+			);
+			path = UITextFieldDeleteDemo;
+			sourceTree = "<group>";
+		};
+		FE0994012109BDBD00B2726A /* UITextFieldDeleteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE0994022109BDBD00B2726A /* UITextFieldDeleteDemoTests.m */,
+				FE0994042109BDBD00B2726A /* Info.plist */,
+			);
+			path = UITextFieldDeleteDemoTests;
+			sourceTree = "<group>";
+		};
+		FE09940C2109BDBD00B2726A /* UITextFieldDeleteDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE09940D2109BDBD00B2726A /* UITextFieldDeleteDemoUITests.m */,
+				FE09940F2109BDBD00B2726A /* Info.plist */,
+			);
+			path = UITextFieldDeleteDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0993E52109BDBB00B2726A /* UITextFieldDeleteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0994122109BDBD00B2726A /* Build configuration list for PBXNativeTarget "UITextFieldDeleteDemo" */;
+			buildPhases = (
+				FE0993E22109BDBB00B2726A /* Sources */,
+				FE0993E32109BDBB00B2726A /* Frameworks */,
+				FE0993E42109BDBB00B2726A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextFieldDeleteDemo;
+			productName = UITextFieldDeleteDemo;
+			productReference = FE0993E62109BDBB00B2726A /* UITextFieldDeleteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE0993FD2109BDBD00B2726A /* UITextFieldDeleteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0994152109BDBD00B2726A /* Build configuration list for PBXNativeTarget "UITextFieldDeleteDemoTests" */;
+			buildPhases = (
+				FE0993FA2109BDBD00B2726A /* Sources */,
+				FE0993FB2109BDBD00B2726A /* Frameworks */,
+				FE0993FC2109BDBD00B2726A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE0994002109BDBD00B2726A /* PBXTargetDependency */,
+			);
+			name = UITextFieldDeleteDemoTests;
+			productName = UITextFieldDeleteDemoTests;
+			productReference = FE0993FE2109BDBD00B2726A /* UITextFieldDeleteDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE0994082109BDBD00B2726A /* UITextFieldDeleteDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0994182109BDBD00B2726A /* Build configuration list for PBXNativeTarget "UITextFieldDeleteDemoUITests" */;
+			buildPhases = (
+				FE0994052109BDBD00B2726A /* Sources */,
+				FE0994062109BDBD00B2726A /* Frameworks */,
+				FE0994072109BDBD00B2726A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE09940B2109BDBD00B2726A /* PBXTargetDependency */,
+			);
+			name = UITextFieldDeleteDemoUITests;
+			productName = UITextFieldDeleteDemoUITests;
+			productReference = FE0994092109BDBD00B2726A /* UITextFieldDeleteDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0993DE2109BDBB00B2726A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zhongliang;
+				TargetAttributes = {
+					FE0993E52109BDBB00B2726A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FE0993FD2109BDBD00B2726A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FE0993E52109BDBB00B2726A;
+					};
+					FE0994082109BDBD00B2726A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FE0993E52109BDBB00B2726A;
+					};
+				};
+			};
+			buildConfigurationList = FE0993E12109BDBB00B2726A /* Build configuration list for PBXProject "UITextFieldDeleteDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE0993DD2109BDBB00B2726A;
+			productRefGroup = FE0993E72109BDBB00B2726A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0993E52109BDBB00B2726A /* UITextFieldDeleteDemo */,
+				FE0993FD2109BDBD00B2726A /* UITextFieldDeleteDemoTests */,
+				FE0994082109BDBD00B2726A /* UITextFieldDeleteDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0993E42109BDBB00B2726A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0993F62109BDBD00B2726A /* LaunchScreen.storyboard in Resources */,
+				FE0993F32109BDBD00B2726A /* Assets.xcassets in Resources */,
+				FE0993F12109BDBB00B2726A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0993FC2109BDBD00B2726A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0994072109BDBD00B2726A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0993E22109BDBB00B2726A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0994202109BE3600B2726A /* UIViewController+ZL.m in Sources */,
+				FE0993EE2109BDBB00B2726A /* ViewController.m in Sources */,
+				FE0993F92109BDBD00B2726A /* main.m in Sources */,
+				FE0993EB2109BDBB00B2726A /* AppDelegate.m in Sources */,
+				FE09941D2109BDDF00B2726A /* UITextField+ZL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0993FA2109BDBD00B2726A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0994032109BDBD00B2726A /* UITextFieldDeleteDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0994052109BDBD00B2726A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE09940E2109BDBD00B2726A /* UITextFieldDeleteDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE0994002109BDBD00B2726A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0993E52109BDBB00B2726A /* UITextFieldDeleteDemo */;
+			targetProxy = FE0993FF2109BDBD00B2726A /* PBXContainerItemProxy */;
+		};
+		FE09940B2109BDBD00B2726A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE0993E52109BDBB00B2726A /* UITextFieldDeleteDemo */;
+			targetProxy = FE09940A2109BDBD00B2726A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE0993EF2109BDBB00B2726A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0993F02109BDBB00B2726A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE0993F42109BDBD00B2726A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0993F52109BDBD00B2726A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE0994102109BDBD00B2726A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE0994112109BDBD00B2726A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0994132109BDBD00B2726A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWJ9E7ZG6V;
+				INFOPLIST_FILE = UITextFieldDeleteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hante.HANTE.UITextFieldDeleteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE0994142109BDBD00B2726A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWJ9E7ZG6V;
+				INFOPLIST_FILE = UITextFieldDeleteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hante.HANTE.UITextFieldDeleteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE0994162109BDBD00B2726A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWJ9E7ZG6V;
+				INFOPLIST_FILE = UITextFieldDeleteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hante.HANTE.UITextFieldDeleteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextFieldDeleteDemo.app/UITextFieldDeleteDemo";
+			};
+			name = Debug;
+		};
+		FE0994172109BDBD00B2726A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWJ9E7ZG6V;
+				INFOPLIST_FILE = UITextFieldDeleteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hante.HANTE.UITextFieldDeleteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextFieldDeleteDemo.app/UITextFieldDeleteDemo";
+			};
+			name = Release;
+		};
+		FE0994192109BDBD00B2726A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWJ9E7ZG6V;
+				INFOPLIST_FILE = UITextFieldDeleteDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hante.HANTE.UITextFieldDeleteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UITextFieldDeleteDemo;
+			};
+			name = Debug;
+		};
+		FE09941A2109BDBD00B2726A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWJ9E7ZG6V;
+				INFOPLIST_FILE = UITextFieldDeleteDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hante.HANTE.UITextFieldDeleteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UITextFieldDeleteDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0993E12109BDBB00B2726A /* Build configuration list for PBXProject "UITextFieldDeleteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0994102109BDBD00B2726A /* Debug */,
+				FE0994112109BDBD00B2726A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0994122109BDBD00B2726A /* Build configuration list for PBXNativeTarget "UITextFieldDeleteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0994132109BDBD00B2726A /* Debug */,
+				FE0994142109BDBD00B2726A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0994152109BDBD00B2726A /* Build configuration list for PBXNativeTarget "UITextFieldDeleteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0994162109BDBD00B2726A /* Debug */,
+				FE0994172109BDBD00B2726A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0994182109BDBD00B2726A /* Build configuration list for PBXNativeTarget "UITextFieldDeleteDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0994192109BDBD00B2726A /* Debug */,
+				FE09941A2109BDBD00B2726A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0993DE2109BDBB00B2726A /* Project object */;
+}
